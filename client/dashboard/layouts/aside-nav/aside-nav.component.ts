@@ -30,15 +30,15 @@ export class AsideNavComponent implements OnInit, AfterViewInit {
         "items": [
           {
             "name": "Manage My License",
-            "url": "/dashboard/tables",
+            "url": "/dashboard/manageMyLicense",
           },
           {
             "name": "Request License for Deloitte Hardware",
-            "url": "/dashboard/forms",
+            "url": "/dashboard/reqLicenseInternal",
           },
           {
             "name": "Request License for Third Party Hardware",
-            "url": "/dashboard/tables",
+            "url": "/dashboard/reqLicenseThirdParty",
           }
         ]
       },
@@ -48,19 +48,19 @@ export class AsideNavComponent implements OnInit, AfterViewInit {
         "items": [
           {
             "name": "Manage Licenses",
-            "url": "/dashboard/forms",
+            "url": "/dashboard/manageLicense",
           },
           {
             "name": "Create customer license",
-            "url": "/dashboard/forms",
+            "url": "/dashboard/reqLicenseCustomer",
           },
           {
             "name": "Create a developer license",
-            "url": "/dashboard/tables",
+            "url": "/dashboard/reqLicenseDevelpoper",
           },
           {
-            "name": "Manage customers / patners",
-            "url": "/dashboard/tables",
+            "name": "Manage Customers/Patners",
+            "url": "/dashboard/manageCustomerPartners",
           }
         ]
       }

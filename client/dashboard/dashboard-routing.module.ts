@@ -14,6 +14,34 @@ export const routes: Routes = [
         loadChildren: './pages/home/home.module#DashboardHomeModule'
       },
       {
+        path: 'manageMyLicense',
+        loadChildren: './pages/manage-my-license/manage-my-license.module#ManageMyLicenseModule'
+      },
+      {
+        path: 'reqLicenseInternal',
+        loadChildren: './pages/create-license-internal/create-license-internal.module#CreateLicenseInternalModule'
+      },
+      {
+        path: 'reqLicenseThirdParty',
+        loadChildren: './pages/create-license-third-party/create-license-third-party.module#CreateLicenseThirdPartyModule'
+      },
+      {
+        path: 'manageLicense',
+        loadChildren: './pages/manage-license/manage-license.module#ManageLicenseModule'
+      },
+      {
+        path: 'reqLicenseCustomer',
+        loadChildren: './pages/create-license-customer/create-license-customer.module#CreateLicenseCustomerModule'
+      },
+      {
+        path: 'reqLicenseDevelpoper',
+        loadChildren: './pages/create-license-developer/create-license-developer.module#CreateLicenseDeveloperModule'
+      },
+      {
+        path: 'manageCustomerPartners',
+        loadChildren: './pages/manage-customers-partners/manage-customers-partners.module#ManageCustomersPartnersModule'
+      },
+      {
         path: 'forms',
         loadChildren: './pages/forms/forms.module#FormsModule'
       },
