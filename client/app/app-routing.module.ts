@@ -9,7 +9,9 @@ import { NotFoundComponent }  from '../shared/components/not-found/not-found.com
 export const routes: Routes = [
   {
     path: '',
-    loadChildren: './../website/website.module#WebsiteModule'
+    //loadChildren: './../website/website.module#WebsiteModule'
+    redirectTo: 'login',
+    pathMatch: 'full'
   },
   {
     path: 'dashboard',
